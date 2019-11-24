@@ -1,3 +1,4 @@
+import { HeaderComponent } from './shared/components/header/header.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -8,7 +9,8 @@ import { BannerComponent } from './core/home/components/generics/banner/banner.c
 @NgModule({
   declarations: [
     AppComponent,
-    BannerComponent
+    BannerComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
